@@ -17,7 +17,7 @@ export class MailService {
          */
         this.mailService.sendMail({
             to: mail,
-            from: 'contact@dkireenkov.ru',
+            from: 'd.kireenkov@yandex.ru',
             subject: 'Automatic response to requests marktradecompany.com',
             text: name + ', thanks for reaching out. Your request will be processed within one day. We will call you back or write to you as soon as possible.'
         })
@@ -28,12 +28,12 @@ export class MailService {
          */
         this.mailService.sendMail({
             to: "contact@dkireenkov.ru",
-            from: 'contact@dkireenkov.ru',
+            from: 'd.kireenkov@yandex.ru',
             subject: 'Request from the site marktradecompany.com',
             text: "Request c Attention! On the website marktradecompany.com through the feedback form, you were sent contacts:" + '\n' + 
-                    "Фамилия/Имя: " + name + " " + surname + '\n' + 
+                    "Nmae: " + name + '\n' + 
                     "email: " + mail + '\n' + 
-                    "Номер телефона: " + phone
+                    "Message: " + surname
                      
     
         })
