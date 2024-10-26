@@ -6,10 +6,10 @@ import { MailService } from "./mailer.service";
 @Module({
     imports: [MailerModule.forRoot({
         transport: {
-            host: 'smtp.yandex.com',
+            host: 'smtp.timeweb.ru',
             auth: {
-                user: 'd.kireenkov@yandex.ru',
-                pass: 'vkexwrbzkkqfnrfz',
+                user: 'contact@dkireenkov.ru',
+                pass: 'WRUY#p4GT7mg',
             },
         }
     })],
