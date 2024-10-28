@@ -17,7 +17,7 @@ export class MailService {
          */
         this.mailService.sendMail({
             to: mail,
-            from: 'contact@dkireenkov.ru',
+            from: 'cpofficer@marktradecompany.com',
             subject: 'Automatic response to requests marktradecompany.com',
             text: name + ', thanks for reaching out. Your request will be processed within one day. We will call you back or write to you as soon as possible.'
         })
@@ -27,8 +27,8 @@ export class MailService {
          * Данные, которые юзер ввёл на веб-форме - отправляем себе на почту.
          */
         this.mailService.sendMail({
-            to: "contact@dkireenkov.ru",
-            from: 'contact@dkireenkov.ru',
+            to: "cpofficer@marktradecompany.com",
+            from: 'cpofficer@marktradecompany.com',
             subject: 'Request from the site marktradecompany.com',
             text: "Attention! On the website marktradecompany.com through the feedback form, you were sent contacts:" + '\n' + 
                     "Name: " + name + '\n' + 

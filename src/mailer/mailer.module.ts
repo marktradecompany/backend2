@@ -8,8 +8,8 @@ import { MailService } from "./mailer.service";
         transport: {
             host: 'smtp.timeweb.ru',
             auth: {
-                user: 'contact@dkireenkov.ru',
-                pass: 'WRUY#p4GT7mg',
+                user: 'cpofficer@marktradecompany.com',
+                pass: 'azywwcn198',
             },
         }
     })],
